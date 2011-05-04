@@ -1,0 +1,62 @@
+/**
+ * --------------------------------------------------------------------
+ * CL.widget.linklist
+ * Author: Ole Aasen, ole.aasen@colorline.no
+ * Copyright (c) 2010 Color Line AS
+ * licensed under MIT (http://en.wikipedia.org/wiki/MIT_License)
+ * --------------------------------------------------------------------
+ */
+ul{margin:0;padding:0;}
+ul li{background:url(/lib/gfx/sprite.png) -560px -2234px no-repeat;list-style:none;padding:0 2px 4px 20px;line-height:130%;}
+
+.wLinklist{}
+.wLinklist li{background-position:-560px -2378px;padding:1px 2px 4px 20px;line-height:150%;}
+.wLinklist.docs li{background-position:-560px -2658px;}
+.wLinklist li.external{background-position:-560px -2518px;}
+.wLinklist a:link,
+.wLinklist a:visited,
+.wLinklist a:hover,
+.wLinklist a:active{color:#008ccd;display:block;}
+
+header .wLinklist.top h4{display:none;}
+header .wLinklist.top ul{margin-left:0;padding-left:0;display:inline;float:right;}
+header .wLinklist.top li{background:none;margin:0;padding:0;display:block;float:left;}
+header .wLinklist.top a:link,
+header .wLinklist.top a:visited,
+header .wLinklist.top a:hover,
+header .wLinklist.top a:active{color:#fff;display:block;float:left;font-family:georgia,serif;font-size:116.666%;font-style:italic;line-height:37px;padding:0 10px;text-align:right;}
+header .wLinklist.top li.cc{background:url(/lib/gfx/sprite.png) right -910px no-repeat;padding-right:10px;}
+header .wLinklist.top li.cc a:link,
+header .wLinklist.top li.cc a:visited,
+header .wLinklist.top li.cc a:hover,
+header .wLinklist.top li.cc a:active{background:url(/lib/gfx/sprite.png) left -910px no-repeat;font-size:133.33%;height:41px;padding:0 0 0 60px;}/* color club */
+
+/* dropdown version */
+.wLinklist.ddc{background:#fff;border:1px solid #012c69;display:none;min-width:175px;padding:5px;position:absolute;top:0;z-index:1000;
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+}
+.wLinklist.ddc h4{display:none;}
+.wLinklist.ddc ul{margin-left:0;padding-left:0}
+.wLinklist.ddc li{margin:0;padding:0;display:block;padding-bottom:3px;float:none;}
+.wLinklist.ddc a:link,
+.wLinklist.ddc a:visited,
+.wLinklist.ddc a:hover,
+.wLinklist.ddc a:active{color:#012c69;display:block;padding:2px;}
+.wLinklist.ddc a:hover{background:#d0d5dd;text-decoration:none;}
+.wLinklist.ddc img{vertical-align:text-top;}
+
+footer .wLinklist{}
+footer .wLinklist h4{float:left;}
+footer .wLinklist h4:after{content:": ";}
+footer .wLinklist li{background:none;margin:0;padding:0;list-style:none;display:block;float:left;}
+footer .wLinklist a:link,
+footer .wLinklist a:visited,
+footer .wLinklist a:hover,
+footer .wLinklist a:link{color:#008ccd;float:left;padding:6px 8px 3px 8px;text-decoration:underline;}
+footer .wLinklist li.logo a:link{height:16px;overflow:hidden;}
+footer .wLinklist li.logo img{display:block;vertical-align:top;}
+
+
+/* frontpage view */
+.sectionTop .wDepteaser.size3col .wLinklist li{background:none;}
+.sectionTop .wDepteaser.size3col .wLinklist a{padding:0;}

@@ -1,0 +1,52 @@
+.line:after,.lastUnit:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+.line{*zoom:1;}
+
+/* column units */
+.unit{float:left;}
+.size1of12{width:8.33333%;}
+.size2of12{width:16.66666%;}
+.size3of12{width:25%;}
+.size4of12{width:33.33333%;}
+.size5of12{width:41.66666%;}
+.size6of12{width:50%;}
+.size7of12{width:58.33333%;}
+.size8of12{width:66.66666%;}
+.size9of12{width:75%;}
+.size10of12{width:83.33333%;}
+.size11of12{width:91.66666%;}
+.size12of12{float:none;}
+.lastUnit{display:table-cell;float:none;width:auto;*display:block;*zoom:1;_position:relative;_left:-3px;_margin-right:-3px;}
+
+/* column new way */
+.row:after,.lastCol:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+.row{*zoom:1;position:relative;}
+.grid{display:table-cell;*display:block;*float:left;*zoom:1;vertical-align:top;padding-right:16px;}
+.col1of12{width:67px;}
+.col2of12{width:150px;}
+.col3of12{width:233px;}
+.col4of12{width:316px;}
+.col5of12{width:399px;}
+.col6of12{width:482px;}
+.col7of12{width:565px;}
+.col8of12{width:648px;}
+.col9of12{width:731px;}
+.col10of12{width:814px;}
+.col11of12{width:897px}
+.col12of12{width:980px;}
+.lastCol{display:table-cell;float:none;width:auto;*display:block;*zoom:1;_position:relative;_left:-3px;_margin-right:-3px;padding-right:0;}
+
+/* Page colums in reskinned site */
+.colCenter{margin:0 auto;position:relative;width:980px;}
+.colRight{float:right;width:233px;_margin-left:-3px;min-height:400px;margin-left:16px;}
+.colLeft{float:left;width:233px;_margin-right:-3px;min-height:400px;margin-right:16px;}
+.colMain{display:table-cell;*display:block;width:auto;}
+
+.clean{padding:10px;}
+.clean .colRight{}
+.clean .colRight{display:none;float:none;width:auto;_margin-left:0;min-height:400px;margin-left:0}
+.clean .colLeft{display:block;float:none;width:auto;_margin-right:0;margin-right:0px;}
+.clean .colMain{display:block;width:auto;}
+
+/* extensions of columns */
+.wMenuLeft{}
+.colFrontpageTop{width:75%;margin-right:0;}

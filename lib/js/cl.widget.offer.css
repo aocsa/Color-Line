@@ -1,0 +1,95 @@
+/* cl.widget.offer */
+.wOffer{display:block;height:246px;margin:0 0 20px 20px;overflow:hidden;padding:2px;width:223px;}
+.wOffer:hover{text-decoration:none;}
+.wOffer img{border:3px solid #fff;-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.3);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);box-shadow: 0 1px 3px rgba(0,0,0,0.3);}
+.wOffer .lineInfo{background:#222;color:#fff;padding:2px 5px;position:absolute;top:5px;left:5px;filter:alpha(opacity=75);opacity: 0.75;}
+.wOffer .headers,
+.wOffer .priceWrapper{text-align:center;}
+.wOffer .label{color:#012c69;}
+.wOffer .currency{color:#012c69;}
+.wOffer .price{color:#749629;font-weight:bold;}
+.wOffer .note{color:#012c69;display:block;font-size:84.6%;}
+
+/* views */
+.sectionBottom .wOffer.size3col{display:block;float:left;height:216px;margin:5px 0 16px 16px;overflow:hidden;padding:2px 5px;width:223px;}
+.sectionBottom .wOffer.size3col:first-child{margin:5px 0 16px 0;}
+.sectionBottom .wOffer img{margin-top:50px;}
+.sectionBottom .wOffer .headers{position:absolute;top:0;left:0;width:233px;height:49px;text-align:center;}
+.sectionBottom .wOffer .headers h3{margin:0;}
+.sectionBottom .wOffer .headers.single h3{position:absolute;top:22px;left:0;right:0;}
+.sectionBottom .wOffer .note{display:inline;}
+.sectionBottom .wOffer .priceWrapper{margin-top:10px;}
+
+/* offer page: */
+.bFilterContent.all .bFilterElm.pri .wOffer{width:482px;}
+.bFilterContent.all .bFilterElm.pri .wOffer img{height:236px;left:3px;position:absolute;top:3px;width:472px;display:none;}
+.bFilterContent.all .bFilterElm.pri .wOffer .bOfferInfo{background:#fff;height:50px;position:absolute;bottom:8px;right:8px;left:6px;padding:0 10px 5px 5px;filter:alpha(opacity=80);opacity:0.8;}
+.bFilterContent.all .bFilterElm.pri .wOffer:hover .bOfferInfo{background:#e1f4fd;}
+.bFilterContent.all .bFilterElm.pri .wOffer .headers{float:left;width:60%;text-align:left;}
+.bFilterContent.all .bFilterElm.pri .wOffer .priceWrapper{float:right;width:40%;text-align:right;}
+.bFilterContent.all .bFilterElm.pri .wOffer .label{}
+.bFilterContent.all .bFilterElm.pri .wOffer .currency{}
+.bFilterContent.all .bFilterElm.pri .wOffer .price{color:#749629;font-size:200%;font-weight:bold;}
+.bFilterContent.all .bFilterElm.pri .wOffer .note{display:block;margin-top:4px;}
+.bFilterContent.all .bFilterElm.pri .wOffer .priceCc{display:none;}
+
+.bFilterContent.theme .bFilterElm.pri .wOffer{width:482px;}
+.bFilterContent.theme .bFilterElm.pri .wOffer img{height:236px;left:3px;position:absolute;top:3px;width:472px;display:none;}
+.bFilterContent.theme .bFilterElm.pri .wOffer .bOfferInfo{background:#fff;height:50px;position:absolute;bottom:8px;right:8px;left:6px;padding:0 10px 5px 5px;filter:alpha(opacity=80);opacity:0.8;}
+.bFilterContent.theme .bFilterElm.pri .wOffer:hover .bOfferInfo{background:#e1f4fd;}
+.bFilterContent.theme .bFilterElm.pri .wOffer .headers{float:left;width:60%;text-align:left;}
+.bFilterContent.theme .bFilterElm.pri .wOffer .priceWrapper{float:right;width:40%;text-align:right;}
+.bFilterContent.theme .bFilterElm.pri .wOffer .label{}
+.bFilterContent.theme .bFilterElm.pri .wOffer .currency{}
+.bFilterContent.theme .bFilterElm.pri .wOffer .price{color:#749629;font-size:200%;font-weight:bold;}
+.bFilterContent.theme .bFilterElm.pri .wOffer .note{display:block;margin-top:4px;}
+.bFilterContent.theme .bFilterElm.pri .wOffer .priceCc{display:none;}
+
+.bFilterContent.tab .bFilterElm.large .wOffer{width:482px;}
+.bFilterContent.tab .bFilterElm.large .wOffer img{height:236px;left:3px;position:absolute;top:3px;width:472px;display:none;}
+.bFilterContent.tab .bFilterElm.large .wOffer .bOfferInfo{background:#fff;height:50px;position:absolute;bottom:8px;right:8px;left:6px;padding:0 10px 5px 5px;filter:alpha(opacity=80);opacity:0.8;}
+.bFilterContent.tab .bFilterElm.large .wOffer:hover .bOfferInfo{background:#e1f4fd;}
+.bFilterContent.tab .bFilterElm.large .wOffer .headers{float:left;width:60%;text-align:left;}
+.bFilterContent.tab .bFilterElm.large .wOffer .priceWrapper{float:right;width:40%;text-align:right;}
+.bFilterContent.tab .bFilterElm.large .wOffer .label{}
+.bFilterContent.tab .bFilterElm.large .wOffer .currency{}
+.bFilterContent.tab .bFilterElm.large .wOffer .price{color:#749629;font-size:200%;font-weight:bold;}
+.bFilterContent.tab .bFilterElm.large .wOffer .note{display:block;margin-top:4px;}
+.bFilterContent.tab .bFilterElm.large .wOffer .priceCc{display:none;}
+
+
+/**** offer page functionality *************************************************************************************/
+.bFilterSort{margin-left:-20px;padding:0 0 10px 0;}
+	.bFilterSort h4{float:left;display:block;padding:9px 10px 0 20px;}
+	.bFilterNav{display:block;height:41px;margin:0;position:relative;overflow:hidden;visibility:hidden;list-style:none;}
+		.bFilterNav li{background:none;float:left;margin:10px 10px 0 0;padding:0;position:relative;z-index:1;}
+		.bFilterNav li.selected{z-index:3;}
+		.bFilterNav li a:link,
+		.bFilterNav li a:visited{display:block;height:30px;line-height:30px;padding:0 10px;text-align:center;text-decoration:none;font-weight:bold;letter-spacing:1px;outline:none;float:left;}
+		.bFilterNav li a:hover{text-decoration:underline;}
+		.bFilterNav li.selected a:link,
+		.bFilterNav li.selected a:visited{color:#fff;background:#3675a8;font-weight:bold;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+		.bFilterNav	li.theme{float:right;display:none;margin:0 10px 0 0;}
+		.bFilterNav	li.theme a:link,
+		.bFilterNav	li.theme a:visited{display:block;font-weight:bold;height:35px;line-height:15px;padding:5px 20px 0 20px;text-align:left;text-decoration:none;letter-spacing:1px;outline:none;float:left;}
+		.bFilterNav	li.theme a .themeInfo{display:block;font-size:11px;font-weight:normal;white-space:nowrap;}
+		.bFilterNav	li.theme a .themeNo{}
+		.bFilterNav li.theme a:hover .themeNo{text-decoration:underline;}
+		.bFilterNav	li.theme a .themeMinPrice{}
+		.bFilterNav li.theme.selected a:link,
+		.bFilterNav li.theme.selected a:visited,
+		.bFilterNav li.theme.selected span{color:#fff;}
+
+.bFilterContent{padding:20px 0 10px 0;}
+	#bFilter_all{display:none;}
+	.bFilterElm{float:left;width:250px;}
+	.bFilterGroup h2{margin:10px 0 10px 20px;}
+	.bFilterContent.tab,
+	.bFilterContent.theme{display:none;}
+	.bFilterContent.all .bFilterElm.pri .lineInfo,
+	.bFilterContent.theme .bFilterElm.pri .lineInfo,
+	.bFilterContent.tab .bFilterElm.large .lineInfo{left:auto;top:6px;right:8px;}
+	.bFilterContent.tab .lineInfo{display:none;}
+	.bFilterContent.tab .bFilterElm.large{width:500px;}
+	.bFilterContent.all .bFilterElm.pri{width:500px;}
+	.bFilterContent.theme .bFilterElm.pri{width:500px;}

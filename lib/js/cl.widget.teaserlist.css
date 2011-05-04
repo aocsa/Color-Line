@@ -1,0 +1,9 @@
+/**********************************************************************
+/* cl teaser list element settings
+/**********************************************************************/
+
+.wTeaserlist{}
+
+/* views */
+.wTeaserlist.size6col{}
+.wTeaserlist.size6col>article>figure{clear:left;float:left;margin-right:16px;}

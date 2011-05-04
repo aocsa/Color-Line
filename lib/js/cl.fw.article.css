@@ -1,0 +1,9 @@
+article{}
+
+article.teaser{}
+
+
+
+
+/* teaser view */
+.cl_teaser h2.cl_facility_heading {padding-bottom: 20px;padding: 20px 5px 5px 5px;color:#4b4b4b;font-size: 1.3em !important;font-weight:bold;border-bottom:1px dotted #e0e0e0;margin-bottom: 20px;}

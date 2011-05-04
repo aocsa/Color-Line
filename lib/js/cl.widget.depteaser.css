@@ -1,0 +1,39 @@
+/* views */
+
+/* frontpage - top slot */
+.wFpEntry .wDepteaser.size3col{text-align:center;position:relative;}
+.wFpEntry .wDepteaser.size3col.header-top figure{margin-top:75px;}
+.wFpEntry .wDepteaser.size3col.header-top .header{position:absolute;top:0;width:233px;*left:0;}
+.wFpEntry .wDepteaser.size3col h3{font-size:215%;line-height:100%;}
+.wFpEntry .wDepteaser.size3col h4{color:#008ccd;font-size:215%;line-height:100%;}
+.wFpEntry .wDepteaser.size3col p{color:#494949;font-family:Georgia,Palatino,Times,"Times New Roman",serif;font-size:123.07692%;font-style:italic;padding-left:10px;padding-right:10px;}
+
+/* frontpage - bottom slot */
+.col9of12 .wDepteaser.size3col{width:233px;display:table-cell;*display:block;*float:left;*zoom:1;vertical-align:top;padding-left:16px;}
+.sectionTop .col9of12 .wDepteaser.size3col:first-child{padding-left:0;}
+.sectionBottom .col9of12 .wDepteaser.size3col:first-child{padding-left:8px;width:225px;}
+
+.wDepteaser.left>figure{float:left;margin-right:16px;}
+.wDepteaser.left>.txt{float:left;}
+
+
+/* Old department teasers */
+.wDepteaser.size4col.left.old .txt{float:left;width:150px;}
+
+.wTeaserlist.size6col>article>.wDepteaser.size6col.top.old>.image{float:left;margin-right:16px;}
+.wTeaserlist.size6col>article>.wDepteaser.size6col.top.old>.txt{float:left;width:233px;}
+.wTeaserlist.size6col>article>.wDepteaser.size6col.left.old>.image{float:left;margin-right:16px;}
+.wTeaserlist.size6col>article>.wDepteaser.size6col.left.old>.txt{float:left;width:233px;}
+
+.wDepteaser.old.size4col{}
+.wDepteaser.old.size4col h3{clear:both;}
+.wDepteaser.old.size4col>figure{clear:left;float:left;margin-right:10px;}
+
+.wDepteaser.old.size6col{}
+.wDepteaser.old.size6col.left>.image{width:233px;}
+.wDepteaser.old.size6col.left>.txt{width:233px;}
+.wDepteaser.old.size6col h3{clear:both;}
+.wDepteaser.old.size6col>figure{clear:left;float:left;margin-right:10px;}
+
+
+

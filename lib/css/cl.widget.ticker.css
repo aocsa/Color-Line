@@ -1,0 +1,49 @@
+/**
+ * --------------------------------------------------------------------
+ * Color Line Ticker element
+ * Author: Ole Aasen, frontend@oleaasen.com
+ * Copyright (c) 2010 Color Line AS
+ * licensed under MIT (http://en.wikipedia.org/wiki/MIT_License)
+ * --------------------------------------------------------------------
+
+info:
+-----
+-
+- 12 col is default view, must work without the "size12col" being set
+- 3 views: type 1, type 2, type 3
+ */
+
+.wTicker{height:37px;width:986px;overflow:hidden;position:relative;margin-bottom:10px;}
+
+.negMargin .wTicker{margin-top:-3px; margin-right:-3px;margin-left:-3px;} /* frontpage ticker 12 col shall not have any margins */
+
+.wTicker .items{position:absolute;height:20000em;}
+.wTicker .item{font-style:italic;padding:5px 0 5px 5px;}
+.wTicker h3{float:left;max-width:25%;display:inline-block;margin:-2px 5px 2px 3px;vertical-align:middle;}
+.wTicker h3:after{content:": ";}
+.wTicker p{float:left;max-width:75%;display:inline-block;padding:1px 8px 0 0;vertical-align:middle;}
+
+.wTicker.type1{background:#e6f0f5/* url(/lib/gfx/sprite.png) left -2240px repeat-x*/;border-bottom:1px solid #deecf2;}
+.wTicker.type2{background:#ffee9d/* url(/lib/gfx/sprite.png) left -2310px repeat-x*/;border-bottom:1px solid #deecf2;}
+.wTicker.type3{background:#fed9da/* url(/lib/gfx/sprite.png) -555px -2372px no-repeat*/;border-bottom:1px solid #deecf2;}
+.wTicker.type1 h3{color:#333;}
+.wTicker.type2 h3{color:#000;}
+.wTicker.type3 h3{color:#d34013;padding-left:24px;}
+.wTicker.type1 p{color:#333;}
+.wTicker.type2 p{color:#333;}
+.wTicker.type3 p{color:#d34013;}
+
+.wTicker.size3col{background:#fff;height:150px;width:233px;-moz-box-shadow:0 1px 3px rgba(0,0,0,0.3);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.3);box-shadow:0 1px 3px rgba(0,0,0,0.3);}
+.wTicker.size3col .item{font-style:normal;height:150px;padding:2px;}
+.wTicker.size3col h3{float:none;display:block;line-height:150%;margin:0;padding:3px 0 3px 8px;;max-width:100%;width:auto;}
+.wTicker.size3col h3:after{content:"";}
+.wTicker.size3col p{display:block;float:none;line-height:inherit;padding:8px;max-width:100%;}
+.wTicker.size3col a:link{display:block;padding:5px 0;}
+.wTicker.size3col.type1 h3{background:#e6f0f5/* url(/lib/gfx/sprite.png) left -2240px repeat-x*/;}
+.wTicker.size3col.type2 h3{background:#ffee9d/* url(/lib/gfx/sprite.png) left -2310px repeat-x*/;}
+.wTicker.size3col.type3 h3{background:#fed9da/* url(/lib/gfx/sprite.png) -555px -2370px no-repeat;padding-left:32px;*/}
+.wTicker.size3col.type3 p{color:#333;}
+
+.ie7 .wTicker.size3col .item{width:233px;}
+.ie7 .wTicker.size3col h3{width:221px;}
+.ie7 .wTicker.size3col p{line-height:normal;}

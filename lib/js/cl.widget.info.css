@@ -1,0 +1,29 @@
+/**
+ * --------------------------------------------------------------------
+ * Color Line Information element
+ * Author: Ole Aasen, frontend@oleaasen.com
+ * Copyright (c) 2010 Color Line AS
+ * licensed under MIT (http://en.wikipedia.org/wiki/MIT_License)
+ * --------------------------------------------------------------------
+
+info:
+-----
+- the styles of this element is almost the same as the ticker element, but lacks the red version
+- 3 views: nostyle (default), standard, important
+ */
+
+.wInfo{padding:2px;}
+
+/* heading */
+.wInfo.standard h3{color:#333;background:#e6f0f5/*url(/lib/gfx/sprite.png) left -2240px repeat-x*/;}
+.wInfo.important h3{color:#000;background:#ffee9d/*url(/lib/gfx/sprite.png) left -2310px repeat-x*/;font-weight:bold;}
+.wInfo.standard h3,
+.wInfo.important h3{min-height:30px;line-height:150%;margin:0;padding-left:8px;}
+.wInfo.standard p,
+.wInfo.important p,
+.wInfo.standard ul,
+.wInfo.important ul{padding:8px;}
+
+/* text shadow */
+.wInfo.standard,
+.wInfo.important{background:#fff;-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.3);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);box-shadow: 0 1px 3px rgba(0,0,0,0.3);}

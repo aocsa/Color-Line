@@ -1,0 +1,128 @@
+/**
+ * --------------------------------------------------------------------
+ * cl.widget.booking: booking element
+ * Author: Ole Aasen, ole.aasen@colorline.no
+ * Copyright (c) 2010 Color Line AS
+ * licensed under MIT (http://en.wikipedia.org/wiki/MIT_License)
+ * --------------------------------------------------------------------
+ */
+
+.wBooking{}
+.body-frontpage .wBooking{display:table-cell;*display:block;}
+.wBooking form{position:relative;padding:0;clear:both;font-size:12px;}
+
+/* GENERAL STATES ****************************************************************************************************************************************************************************/
+.wBooking .leftCol{float:left;width:65%;}
+.wBooking .rightCol{float:right;width:33%;}
+.ie7 .wBooking .rightCol{float:right;width:33%;margin-right:-3px;}
+.wBooking h2{display:none;}
+.wBooking legend{margin:0;padding:0;}
+.wBooking label{display:block;color:#fff;}
+.wBooking #BEibe label{height:28px;margin:0;}
+.wBooking #BEibe label.oneLine{height:14px;}
+.wBooking select{display:block;border:1px solid #ccc;width:100%;font-size:11px;}
+.wBooking input{display:block;border:1px solid #ccc;width:100%;font-size:11px;padding:1px 2px;}
+.ie7 .wBooking,.ie7 .wBooking input,.ie7 .wBooking select{font-size:85%;}
+
+/* WIDE STATE *******************************************************************************************************************************************************************************/
+.wBooking.wide-state{padding-top:10px;}
+.wBooking.wide-state form{border:1px solid #fff;margin-bottom:10px;
+	   -moz-box-shadow:0 0 2px rgba(0,0,0,0.4);
+	-webkit-box-shadow:0 0 2px rgba(0,0,0,0.4);
+	        box-shadow:0 0 2px rgba(0,0,0,0.4);
+
+	background-color: #012c69;
+	background-image: -moz-linear-gradient(top, #012c69, #7abbe2);
+	background-image: -ms-linear-gradient(top, #012c69, #7abbe2);
+	background-image: -o-linear-gradient(top, #012c69, #7abbe2);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#012c69), to(#7abbe2));
+	background-image: -webkit-linear-gradient(top, #012c69, #7abbe2);
+	background-image: linear-gradient(top, #012c69, #7abbe2);
+				 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#012c69', EndColorStr='#7abbe2');
+}
+
+.wBooking.wide-state fieldset{margin:0;padding:10px;}
+.wBooking.wide-state h2{background:url(/lib/gfx/sprite.png) right -700px no-repeat;border:0;display:block;padding:0 24px 0 0;position:absolute;right:-2px;top:-58px;cursor:pointer;font-size:138.46154%}
+.wBooking.wide-state h2 span{color:#fff;display:block;line-height:58px;background:url(/lib/gfx/sprite.png) left -630px no-repeat;padding-left:60px;}
+.wBooking.wide-state #BEdetails{float:left;width:40%;padding-bottom:20px;}
+.wBooking.wide-state #BEibe,.wBooking.wide-state #BEibook{float:left;width:30%;}
+.wBooking.wide-state #BEsubmit{float:right;width:20%;}
+.wBooking.wide-state .beError{left:45%;top:10px;}
+/* NORMAL STATE ******************************************************************************************************************************************************************************/
+.wBooking.normal-state{position:absolute;top:0;bottom:0;width:233px;
+	background-color: #012c69;
+	background-image: -moz-linear-gradient(top, #012c69, #7abbe2);
+	background-image: -ms-linear-gradient(top, #012c69, #7abbe2);
+	background-image: -o-linear-gradient(top, #012c69, #7abbe2);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#012c69), to(#7abbe2));
+	background-image: -webkit-linear-gradient(top, #012c69, #7abbe2);
+	background-image: linear-gradient(top, #012c69, #7abbe2);
+				 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#012c69', EndColorStr='#7abbe2');
+
+}
+/*.wBooking.normal-state form{margin-top:-35px;height:100%;padding:35px 0 0 0;}*/
+.wBooking.normal-state form{position:absolute;top:35px;bottom:0;padding:0;}
+
+.wBooking.normal-state fieldset{margin:0;padding:0 10px;}
+.wBooking.normal-state label{display:block;margin:3px 0 5px 0;}
+.wBooking.normal-state h2{position:relative;padding-left:10px;z-index:100;display:block;}
+.wBooking.normal-state h2 span{color:#fff;}
+.wBooking.normal-state #BEsubmit{position:absolute;right:0;bottom:5px;left:0;}
+
+/* parts */
+#BEform,#BEpromoCode,#BEagent,#BEcc,#BEsystemDown,#BEibook,#BEibe{display:none;}
+.wBooking.promo-code #BEpromoCode,.wBooking.agent #BEagent,.wBooking.cc #BEcc,.wBooking.system-down #BEsystemDown{display:block;}
+
+/* ibook */
+.wBooking.ibook #BEibook{display:block;}
+
+/* ibe */
+.wBooking.ibe #BEibe{display:block;}
+.wBooking.ibe #BEcc{display:none;}
+
+/* illegal and error messages*/
+.wBooking .beError{background:#f6fafb;display:none;padding:10px;position:absolute;left:10px;right:10px;bottom:10px;top:180px;-webkit-box-shadow:2px 2px 5px rgba(0,0,0,0.4);-moz-box-shadow:2px 2px 5px rgba(0,0,0,0.4);box-shadow:2px 2px 5px rgba(0,0,0,0.4);}
+.wBooking .beError p{color:#444;font-size:108%;line-height:130%;margin:5px 0 10px 0;}
+.wBooking.illegal #BEillegal{display:block;}
+.wBooking.illegal #BEcc,.wBooking.illegal #BEsubmit{display:none;}
+
+/* agent */
+.wBooking.normal-state.agent{height:435px;}
+.wBooking.agent-invalid #BEagentError{display:block;}
+
+/* system-down */
+.wBooking.system-down #BEsystemDown{}
+.wBooking.system-down #BEsystemDown h3,
+.wBooking.system-down #BEsystemDown h4,
+.wBooking.system-down #BEsystemDown p{color:#fff !important;padding-left:0;}
+.wBooking.system-down #BEsystemDown p{font-size:108%;}
+.wBooking.system-down #BEagent,
+.wBooking.system-down #BEdetails,
+.wBooking.system-down #BEibook,
+.wBooking.system-down #BEcc,
+.wBooking.system-down #BEsubmit,
+.wBooking.system-down #BEibe{display:none;}
+
+/* triptype */
+.wBooking.return{}
+.wBooking.oneway #BEinbound{visibility:hidden;}
+.wBooking.returnCruise{}
+.wBooking.daytrip{}
+.wBooking.allinc{}
+.wBooking #BEtriptype label{float:left;color:#fff;white-space:nowrap;padding:0 10px 0 0;}
+.wBooking #BEtriptype input{display:inline;width:auto;border:0;}
+
+/* ferry lines */
+.wBooking.cruise #BEttd{display:none;}
+.wBooking.cruise.ibook #BEttc,
+.wBooking.cruise.ibook #BEttcm{display:none;}
+.wBooking.superspeed #BEttc,
+.wBooking.superspeed #BEttcm{display:none;}
+.wBooking.superspeed.ibook #BEttd{display:none;}
+.wBooking.sweden #BEttc,.wBooking.sweden #BEttcm{display:none;}
+.wBooking.sweden.ibook #BEttd{display:none;}
+
+/* MISC *******************************************************************************************************************************************************************************/
+.wBooking .beDate{background:#fff url("/gfx/icon_calendar.png") no-repeat right center;}
+.wBooking .hasDatepicker{cursor:pointer;}
+.wBooking .beRadio{display:inline;width:auto;border:none;}

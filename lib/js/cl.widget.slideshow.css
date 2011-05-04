@@ -1,0 +1,6 @@
+.wSlideshow{position:relative;overflow:hidden;}
+.wSlideshow.size6col.widescreen{width:476px;height:202px;}
+.wSlideshow.size9col.widescreen{width:721px;height:305px;}
+
+.wSlideshow div.items{width:20000em;position:absolute;}
+.wSlideshow img{float:left;}

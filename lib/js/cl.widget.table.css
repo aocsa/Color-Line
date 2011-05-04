@@ -1,0 +1,42 @@
+.wTable{width:100%;}
+.wTable thead th{text-align:left;border-bottom:1px solid #b2c9d3;}
+.wTable thead th.blue{} /* not used in this design */
+.wTable tbody th{padding:8px 4px;text-align:left;}
+.wTable tbody td{padding:8px 4px;}
+.wTable tbody tr.zebra td{background:#e8f0f3;border-top:1px solid #e1ebef;}
+
+.wTable.contact{}
+.wTable.contact td{color:#6e99ac;padding:2px 0 2px 4px;white-space:nowrap;}
+.wTable.contact .firstCol{color:#00306a;width:100%;text-align:right;padding-right:8px;}
+
+
+.wTable.accommodation{}
+.wTable.accommodation .firstCol{}
+
+
+.wTable.facility{}
+.wFacility.article.size6col .wTable.facility{width:auto;}
+
+
+.wTable.facilitylist{}
+.wTable.facilitylist td:first-child{width:35%;}
+
+
+.wTable.timetable table{width:100%;margin-top:10px;}
+.wTable.timetable .yep{text-align:center;vertical-align:text-bottom;}
+.wTable.timetable .yep img{vertical-align:middle;}
+.wTable.timetable .comments{line-height:150%;font-size:90%;}
+
+
+/* All tables */
+tbody th,tbody td{padding:3px 0;}
+
+/*
+.wTimetable table{width:482px;}
+.wTimetable td{text-align:center;vertical-align:middle;}
+table{margin-bottom:8px;width:100%;*width:482px;}
+thead th{padding:5px;background:#008ccd;border:1px solid #f7fafb;color:#fff;text-align:left;}
+tbody th{padding:5px;background:#008ccd;border:1px solid #f7fafb;color:#fff;text-align:left;}
+tbody td{padding:5px;background:#fff;border:1px solid #e6e7e8;vertical-align:top;}
+footer th,footer,td{background:transparent;}
+*/

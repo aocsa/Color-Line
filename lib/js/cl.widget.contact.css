@@ -1,0 +1,12 @@
+/* section */
+
+header .wContact{text-align:right;margin-top:-29px;}
+header .wContact h2{display:inline;font-size:123.07692%;}
+header .wContact h2:after{content:": ";}
+header .wContact .phone{color:#00306a;display:inline;font-family:georgia,serif;font-size:123.07692%;}
+header .wContact table,
+header .wContact p{display:none;}
+
+footer .wContact{text-align:right;}
+footer .wContact a{display:block;}
+footer .wContact .phone{color:#00306a;font-family:georgia;font-size:216.66666%;}

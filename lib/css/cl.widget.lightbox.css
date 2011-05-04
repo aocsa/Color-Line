@@ -1,0 +1,6 @@
+/**** Widget Lightbox *************************************************************************************/
+.lightbox{display:none;background:#f6fafb;width:760px;height:450px;font-size:11px;z-index:10000;padding:30px 30px 20px 30px;
+	-moz-box-shadow:1px 1px 8px #000;-webkit-box-shadow:2px 2px 4px #000;box-shadow:2px 2px 4px #000;
+}
+.lightbox .wrapper{height:100%;}
+.lightbox .close{background-image:url(http://static.flowplayer.org/img/overlay/close.png);position:absolute;right:5px;top:5px;cursor:pointer;height:35px;width:35px;z-index:1000;}

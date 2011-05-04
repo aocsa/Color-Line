@@ -1,0 +1,26 @@
+/* ====== Headings ====== */
+/* .h1-.h6 classes should be used to maintain the semantically appropriate heading levels - NOT for use on non-headings */
+
+h1,.h1,h2,.h2,h3,.h3,h4,h5,h6,.ingress{color:#012c69;font-family:Georgia,Palatino,Times,"Times New Roman",serif;font-size:100%;}
+
+h1, .h1{font-size:215.38462%;font-weight:normal;font-style:italic;margin:0 0 10px 0;}/*28px*/
+h2, .h2{font-size:169.23077%;font-weight:normal;font-style:italic;margin:5px 0 2px 0;}/*22px*/
+h3, .h3{font-size:138.46154%;font-weight:normal;font-style:italic;margin:5px 0 5px 0;}/*18px*/
+h4, .h4{font-size:123.07692%;font-weight:normal;font-style:italic;margin:5px 0 2px 0;}/*16px*/
+h5, .h5{font-size:107.69230%;font-weight:normal;font-style:italic;}/*14px*/
+h6, .h6{font-size:100%;font-weight:bold;}/*13px*/
+.ingress{font-size:138.46154%;font-weight:normal;font-style:italic;margin:5px 0 5px 0;}
+
+/*header text color variations */
+.col1{color:#fff !important;} /* White  */
+.col2{color:#6e99ac !important;} /* Greyish blue  */
+.col3{color:#012c69 !important;} /* Color Line main blue  */
+.col4{color:#008ccd !important;} /* Color Line clear blue  */
+.col5{color:#494949 !important;} /* Color Line grey  */
+.col6{color:#749629 !important;} /* Color Line green  */
+
+
+/* if additional headings are needed they should be created via additional classes, never via location dependant styling */
+
+.category{font-size:108%;font-weight:normal;font-style:normal;text-transform:uppercase;color:#333;}
+.category a{color:#333;}

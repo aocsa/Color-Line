@@ -1,0 +1,13 @@
+.wPriceExample{margin-bottom:0;} /* article */
+.wPriceExample.list .wPriceExample a:link,
+.wPriceExample.list .wPriceExample a:visited,
+.wPriceExample.list .wPriceExample a:hover,
+.wPriceExample.list .wPriceExample a:active{color:#008ccd;font-size:107.69230%;font-weight:bold;}
+
+.wPriceExample .price{}
+
+/* list view */
+.wPriceExample.list{margin-bottom:10px;} /* section */
+.wPriceExample.list.standard{}
+.wPriceExample.list.important{background:#fff;border:1px solid #ccc;padding:8px;-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.3);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);box-shadow: 0 1px 3px rgba(0,0,0,0.3);}
+.wPriceExample.list.nostyle{}
